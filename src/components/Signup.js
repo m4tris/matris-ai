@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../App.css'; // CSS dosyasını doğru bir şekilde import edin
+import '../App.css';
 
 const Signup = () => {
   const [username, setUsername] = useState('');
@@ -10,7 +10,6 @@ const Signup = () => {
   };
 
   return (
-    
     <div className='signup-container'>
       <h1>Bir hesap oluştur</h1>
       <form onSubmit={handleSubmit}>
@@ -21,7 +20,7 @@ const Signup = () => {
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             required
-            placeholder=" "  // Placeholder'ı boş bırakıyoruz
+            placeholder=" "
           />
           <label htmlFor="username">E-posta</label>
         </div>
