@@ -102,3 +102,57 @@ button:hover {
   color: #4477CE;
   font-weight: bold;
 }
+
+
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  font-size: 48px;
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.signup-button:hover {
+  background-color: #45a049;
+}
+
+.login-button {
+  background-color: #008CBA;
+  color: white;
+}
+
+.login-button:hover {
+  background-color: #007bb5;
+}

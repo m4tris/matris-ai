@@ -1,17 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';  // Link kullanarak sayfalar arası geçiş yapabilirsiniz.
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <div className='home-container'> 
-      <h1>WELCOME TO MATRİS</h1>
-      <p></p>
-      <div>
+    <div className='home-container'>
+      <h1>Welcome to Matris</h1>
+      <p>Your AI-powered assistant for all your needs.</p>
+      <div className='button-container'>
         <Link to="/signup">
-          <button>Kayıt Ol</button>
+          <button className='signup-button'>Sign Up</button>
         </Link>
         <Link to="/login">
-          <button>Giriş Yap</button>
+          <button className='login-button'>Log In</button>
         </Link>
       </div>
     </div>
