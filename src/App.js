@@ -1,9 +1,13 @@
 import React from 'react';
+import './App.css';
+import './styles/global.css';
 import './App.css'; 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Signup from './components/Signup'; // Doğru import ettiğinizden emin olun
-import Login from './components/Login';   // Aynı şekilde
-import Home from './Pages/Home';
+import Signup from './components/Signup'; 
+import Login from './components/Login';   
+import Home from './Pages/Home';  
+
+
 
 function App() {
   return (
