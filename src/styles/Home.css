@@ -14,13 +14,19 @@ html, body {
 .left-side {
   flex: 0 0 70%; 
   background-color: #000000; 
-  color: white; 
+  color: rgb(78, 76, 76);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
 }
+
+.left-side h1{
+  font-size: 40px; 
+  color: white;
+}
+
 
 .right-side {
   flex: 0 0 30%; 
